@@ -49,6 +49,9 @@ p {
   padding: 20px 80px;
   background: #e3e6f3;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 #navbar {
@@ -82,4 +85,46 @@ p {
   position: absolute;
   bottom: -4px;
   left: 20px;
+}
+
+/* Home Page */
+#hero {
+  background-image: url(img/fashion2.png);
+  height: 90vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top 25% right 0;
+  /* background-size: cover; */
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#hero h4 {
+  padding-bottom: 15px;
+}
+
+#hero h1 {
+  padding-bottom: 15px;
+  color: #088178;
+}
+
+#hero button {
+  background: #088178;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+#hero button:hover {
+  background: #d6d618;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 5px 15px rgba(143, 31, 31, 0.3);
+  transition: 300ms ease;
 }
